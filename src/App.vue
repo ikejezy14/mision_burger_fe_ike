@@ -1,8 +1,10 @@
 <template>
   <div id="app" class="app">
-    <Header />
-    <router-view></router-view>
-    <Footer />
+    <div class="global_container">
+      <Header />
+      <router-view></router-view>
+      <Footer />
+    </div>
   </div>
 </template>
 
@@ -10,6 +12,7 @@
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
 import Cards from "./components/Cards.vue";
+
 export default {
   name: "App",
 
@@ -27,8 +30,8 @@ export default {
 </script>
 
 <style>
-body {
-  margin: 0 0 0 0;
-  background-color: whithe;
-}
+  @import './css/Styles.css';
+  .global_container{
+    max-width: 1920px;
+  }
 </style>

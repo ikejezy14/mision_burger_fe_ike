@@ -2,11 +2,12 @@
   <div class="section">
       <div class="banner">
         <div class="buttons">
-          <router-link to="/home"><button v-if="!is_auth">Home</button></router-link> 
-          <router-link to="/user/login"><button v-if="!is_auth">Iniciar Sesión</button></router-link> 
-          <router-link to="/user/signUp"><button v-if="!is_auth">Registrarse</button></router-link>  
-          <button v-if="is_auth" v-on:click="loadReservas">Reservas</button>
-          <button v-if="is_auth" v-on:click="loadDomicilios">Domicilios</button>
+          <ul>
+            <router-link to="/home"><li v-if="!is_auth"><a href=""> Home</a></li></router-link>
+            <router-link to="/user/login"><li v-if="!is_auth">Iniciar Sesión</li></router-link>
+            <router-link to="/user/signUp"><li v-if="!is_auth">Registrarse</li></router-link>  
+          </ul>
+
         </div>
       </div>
     </div>
@@ -29,15 +30,36 @@ export default {
 </script>
 
 <style>
+.section {
+  width: 100%;
+  background-color: white;
+}
+.banner {
+  height: 340px;
+  max-width: 100%;
+  background-image: url("../assets/banner.png");
+  background-size: cover;
+  position: relative;
+}
 .buttons {
   float: right;
   display: flex;
   gap: 20px;
   justify-content: flex-end;
+  flex-direction: row;
   padding-top: 23px;
   margin-right: 50px;
 }
-.buttons button {
+.buttons ul{
+  display: flex;
+  gap:5%;
+  align-items: center;
+  justify-content: center;
+}
+.buttons ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
   font-size: 15px;
   font-weight: bold;
@@ -49,19 +71,14 @@ export default {
   border-radius: 10px;
   cursor: pointer;
 }
-.buttons button:hover {
+.buttons ul a{
+  text-decoration: none;
+}
+.buttons ul{
+  list-style: none;
+  
+}
+.buttons li:hover {
   background-color: rgb(238, 236, 236);
-}
-
-.section {
-  height: 340px;
-  width: 100%;
-  background-color: white;
-}
-.banner {
-  height: 340px;
-  max-width: 1349px;
-  background-image: url("../assets/banner.png");
-  position: relative;
 }
 </style>

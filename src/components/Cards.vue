@@ -1,154 +1,57 @@
 <template>
-      <div class="cards-container">
-      <div class="menu_inicio">
-        <h1 class="h1_description_menu">Nuestro Menú</h1>
-        <div class="grid">
-          <div class="item1">
-            <div class="card">
-              <div class="producto1"></div>
-              <h2 class="h2_description_menu">Hamburguesa Máster</h2>
-              <ul class="description_title">
-                <li>Hamburguesa doble carne de 1/2 lb</li>
-                <li>Lechuga Crispy</li>
-                <li>Pepinillos</li>
-                <li>Cebolla</li>
-                <li>Tomate</li>
-                <li>Salsas</li>
-              </ul>
-
-              <h4 class="h4_description_menu">$12.300</h4>
-            </div>
-          </div>
-          <div class="item2">
-            <div class="card">
-              <div class="producto2"></div>
-              <h2 class="h2_description_menu">Hamburguesa de Pollo Crispy</h2>
-              <ul class="description_title">
-                <li>Hamburguesa de pollo crispy</li>
-                <li>Lechuga Crispy</li>
-                <li>Pepinillos</li>
-                <li>Maduro</li>
-                <li>Tocineta</li>
-                <li>Champiñones</li>
-                <li>Tomate</li>
-                <li>Salsas</li>
-              </ul>
-              <h4 class="h4_description_menu">$10.500</h4>
-            </div>
-          </div>
-          <div class="item3">
-            <div class="card">
-              <div class="producto3"></div>
-              <h2 class="h2_description_menu">Hamburguesa Vegetariana</h2>
-              <ul class="description_title">
-                <li>
-                  Hamburguesa doble carne hecha a base de lentejas y especies
-                </li>
-                <li>Vegetales</li>
-                <li>Salsas</li>
-              </ul>
-              <h4 class="h4_description_menu">$18.000</h4>
-            </div>
-          </div>
-          <div class="item4">
-            <div class="card">
-              <div class="producto4"></div>
-              <h2 class="h2_description_menu">Hamburguesa Campeona</h2>
-              <ul class="description_title">
-                <li>Hamburguesa triple carne</li>
-                <li>Tocineta</li>
-                <li>Chorizo</li>
-                <li>Maduro</li>
-                <li>Vegetales</li>
-                <li>Salsas</li>
-              </ul>
-              <h4 class="h4_description_menu">$25.500</h4>
-            </div>
+  <div class="cards-container">
+    <div class="menu_inicio">
+      <h1 class="h1_description_menu">Productos Estrellas</h1>
+      <div class="products_container">
+        <div class="item1">
+          <div class="card">
+            <div class="producto1"></div>
+            <h2 class="h2_description_menu">Hamburguesa Máster</h2>
+            <ul class="description_title"></ul>
           </div>
         </div>
-      </div>
-      <div class="menu_2">
-        <div class="grid2">
-          <div class="item5">
-            <div class="card">
-              <div class="producto5"></div>
-              <h2 class="h2_description_menu">Sandwich Burguer</h2>
-              <ul class="description_title">
-                <li>Sandwich relleno de carne de res</li>
-                <li>Lechuga crispy</li>
-                <li>Pepinillos</li>
-                <li>Huevo</li>
-                <li>Maiz</li>
-                <li>Cebolla</li>
-                <li>Tomate</li>
-                <li>Salsas</li>
-              </ul>
-              <h4 class="h4_description_menu">$10.500</h4>
-            </div>
+        <div class="item2">
+          <div class="card">
+            <div class="producto2"></div>
+            <h2 class="h2_description_menu">Hamburguesa de Pollo Crispy</h2>
+            <ul class="description_title"></ul>
           </div>
-          <div class="item6">
-            <div class="card">
-              <div class="producto6"></div>
-              <h2 class="h2_description_menu">Combo Trío</h2>
-              <ul class="description_title">
-                <li>Dos hamburguesas de carne de res</li>
-                <li>Lechuga crispy</li>
-                <li>Pepinillos</li>
-                <li>Maduro</li>
-                <li>Tocineta</li>
-                <li>Champiñones</li>
-                <li>Tomate</li>
-                <li>Salsas</li>
-                <li>Acompañado de un Sandwich Burguer</li>
-                <li>Papas</li>
-              </ul>
-              <h4 class="h4_description_menu">$40.500</h4>
-            </div>
+        </div>
+        <div class="item3">
+          <div class="card">
+            <div class="producto3"></div>
+            <h2 class="h2_description_menu">Hamburguesa Vegetariana</h2>
+            <ul class="description_title"></ul>
           </div>
-          <div class="item7">
-            <div class="card">
-              <div class="producto7"></div>
-              <h2 class="h2_description_menu">Pinchos Vegetarianos</h2>
-              <ul class="description_title">
-                <li>Dos pinchos de carne</li>
-                <li>Garbanzo</li>
-                <li>Especies</li>
-                <li>Vegetales</li>
-                <li>Papa</li>
-                <li>Salsas</li>
-              </ul>
-              <h4 class="h4_description_menu">$30.000</h4>
-            </div>
-          </div>
-          <div class="item8">
-            <div class="card">
-              <div class="producto8"></div>
-              <h2 class="h2_description_menu">Apanaditos de Pollo</h2>
-              <ul class="description_title">
-                <li>Trozos de pollo apanado</li>
-                <li>Salsas</li>
-              </ul>
-              <h4 class="h4_description_menu">$10.500</h4>
-            </div>
+        </div>
+        <div class="item4">
+          <div class="card">
+            <div class="producto4"></div>
+            <h2 class="h2_description_menu">Hamburguesa Campeona</h2>
+            <ul class="description_title"></ul>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>
 export default {
-  name:"Cards",
-}
+  name: "Cards",
+};
 </script>
 
 <style>
+.cards-container {
+  width: 100%;
+  margin-bottom: 5%;
+}
 .card {
-  display: flex;
-  flex-direction: column;
   border-radius: 15px;
   box-shadow: 0px 0px 7px -3px black;
   padding: 10px;
+  padding-bottom: 25px;
 }
 
 .header-title {
@@ -179,6 +82,7 @@ export default {
   text-align: center;
   letter-spacing: 5px;
   word-spacing: 8px;
+  margin-top: 2%;
 }
 
 .h2_description_menu {
@@ -205,19 +109,20 @@ export default {
   word-spacing: 1px;
 }
 
-.grid {
-  display: grid;
-  height: 400px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 300px;
+.products_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
 }
 
 .item1 {
-  padding-left: 50px;
   display: inline-block;
   justify-content: space-around;
   align-items: center;
-  grid-column: 1 / 1;
 }
 
 .producto1 {
@@ -229,11 +134,10 @@ export default {
 }
 
 .item2 {
-  padding-left: 60px;
   display: inline-block;
   justify-content: space-around;
   align-items: center;
-  grid-column: 2 / 2;
+
 }
 
 .producto2 {
@@ -245,11 +149,10 @@ export default {
 }
 
 .item3 {
-  padding-left: 50px;
   display: inline-block;
   justify-content: space-around;
   align-items: center;
-  grid-column: 3/ 3;
+
 }
 
 .producto3 {
@@ -261,12 +164,9 @@ export default {
 }
 
 .item4 {
-  padding-left: 50px;
-  padding-right: 50px;
   display: inline-block;
   justify-content: space-around;
   align-items: center;
-  grid-column: 4/4;
 }
 
 .producto4 {
@@ -277,80 +177,76 @@ export default {
   background-position: center;
 }
 
-.grid2 {
-  display: grid;
-  height: 400px;
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: 300px;
-  margin-top: 100px;
-}
 
-.item5 {
-  padding-left: 50px;
-  display: inline-block;
-  justify-content: space-around;
+
+/*// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 360px) {
+  .card{
+    margin-bottom: 10%;
+  }
+  .h1_description_menu{
+    margin-top: 10%;
+  }
+  .buttons{
+    
+  }
+
+  .products_container {
+    flex-direction: column;
+    margin:10%;
+  }
+}
+@media (max-width: 576px) {
+  .card{
+    margin-bottom: 10%;
+  }
+  .h1_description_menu{
+    margin-top: 10%;
+  }
+  .buttons{
+    margin-right: 10px;
+    padding-top:2px
+  }
+.buttons ul li {
+  display: flex;
+  justify-content: center;
   align-items: center;
-  grid-column: 1 / 1;
+  color: black;
+  font-size: 8px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 25px;
+  width: 60px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  .banner{
+    height: 90px;
+  }
+
+  .products_container {
+    flex-direction: column;
+    margin:10%;
+  }
 }
 
-.producto5 {
-  height: 150px;
-  width: 100%;
-  background-image: url("../assets/producto5.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+
 }
 
-.item6 {
-  padding-left: 60px;
-  display: inline-block;
-  justify-content: space-around;
-  align-items: center;
-  grid-column: 2 / 2;
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+
 }
 
-.producto6 {
-  height: 150px;
-  width: 100%;
-  background-image: url("../assets/producto6.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1200px) {
 
-.item7 {
-  padding-left: 50px;
-  display: inline-block;
-  justify-content: space-around;
-  align-items: center;
-  grid-column: 3/ 3;
-}
-
-.producto7 {
-  height: 150px;
-  width: 100%;
-  background-image: url("../assets/producto7.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.item8 {
-  padding-left: 50px;
-  padding-right: 50px;
-  display: inline-block;
-  justify-content: space-around;
-  align-items: center;
-  grid-column: 4/4;
-}
-
-.producto8 {
-  height: 150px;
-  width: 100%;
-  background-image: url("../assets/producto8.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 </style>
