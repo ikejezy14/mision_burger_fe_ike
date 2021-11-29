@@ -1,15 +1,17 @@
 <template>
   <h1 class="h1_description_menu">Iniciar Sesión</h1>
-  <div class="login-box">
-    <form>
-      <!--username-->
-      <label for="username ">Usuario</label>
-      <input name="username" type="text" placeholder="Digite Usuario " />
-      <!--password-->
-      <label for="password ">Contraseña</label>
-      <input name="password" type="password" placeholder="Digite Contraseña" />
-      <input type="submit" value="INGRESAR" />
-    </form>
+  <div class="login-box-container">
+    <div class="login-boxx">
+      <form>
+        <!--username-->
+        <label for="username ">Usuario</label>
+        <input name="username" type="text" placeholder="Digite Usuario " />
+        <!--password-->
+        <label class="password-label" for="password ">Contraseña</label>
+        <input name="password" type="password" placeholder="Digite Contraseña" />
+        <input type="submit" value="INGRESAR" />
+      </form>
+    </div>
   </div>
 </template>
 
@@ -20,66 +22,48 @@ export default {
 </script>
 
 <style>
-.login-box {
-  margin-top: 30px;
-  margin-left: 450px;
-  margin-right: 450px;
-  background-color: #9c2713;
-  color: white;
-  top: 50%;
-  left: 50%;
-  padding: 30px;
-  box-sizing: border-box;
+.login-box-container{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.login-boxx{
+  display: flex;
+  margin-top: 2%;
+  margin-bottom: 4%;
+  justify-content: center;
+  width: 300px;
+}   
+
+.login-boxx form{
+  display: flex;
+
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
   border-radius: 10px;
+   background-color: #9C2713;
 }
 
-.login-box h1 {
-  margin: 20px;
-  font-weight: bold;
-  text-align: center;
-  font-size: 22px;
-}
-.login-box label {
-  margin-bottom: 15px;
-  font-weight: bold;
-  text-align: center;
-  display: block;
-  font-size: 35px;
-}
-.login-box input {
-  margin-bottom: 20px;
-  text-align: center;
-}
-.login-box input[type="text"],
-.login-box input[type="password"] {
-  border: none;
-  outline: none;
-  height: 40px;
-  width: 299px;
-  padding-right: 6px;
-  padding-left: 6px;
-  color: black;
-  font-size: 16px;
-  border-radius: 10px;
-  margin-left: 10%;
-  font-weight: bold;
-}
-.login-box input[type="submit"] {
-  border: none;
-  outline: none;
-  height: 40px;
-  width: 311px;
-  font-size: 25px;
-  font-weight: bold;
-  border-radius: 10px;
+.password-label{
   margin-top: 15px;
-  margin-left: 10%;
-  cursor: pointer;
-  background-color: #7D1F0F;
-  color:white;
 }
-
-.login-box input[type="submit"]:hover{
-  background-color: #6d1d0f83;
+form input{
+  text-align: center;
+  height: 40px;
+  border:none;
+  width: 80%;
+  border-radius: 10px;
+}
+form input[type="submit"]{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  background-color: white;
+  font-weight: bold;
+}
+form input[type="submit"]:hover{
+background-color: rgb(241, 241, 241);
 }
 </style>

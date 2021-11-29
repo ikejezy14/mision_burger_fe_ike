@@ -1,8 +1,7 @@
 <template>
   <div class="footer">
       <h1 class="h1_description_menu">
-        Contáctanos en nuestra línea 01 8000 5689 562 Medellín - Colombia
-        <br />Visítanos Calle 72 No. 23-124
+        Todos los derechos reservados @Team4 - P42. Misión Mintic 2022
       </h1>
     </div>
 </template>
@@ -15,14 +14,14 @@ export default {
 
 <style>
 .footer {
-  height: 60px;
+  display: flex;
+  height: 80px;
   width: 100%;
   background-color: #9c2713;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  justify-content: center;
+  align-items: center;
 }
 .footer h1 {
-  padding-top: 20px;
   color: white;
   font-family: arial;
   font-size: 15px;
